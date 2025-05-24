@@ -6,7 +6,7 @@ import profilePic from "./images/audge.png";
 const Header = () => {
   return (
     <header className="header">
-      <p>Audrey's 20th</p>
+      <p>Physics 20B</p>
       <div className="links-container">
         <NavLink to="/namfam" className="link">
           nam fam
