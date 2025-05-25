@@ -9,10 +9,10 @@ const Header = () => {
       <p>Physics 20B</p>
       <div className="links-container">
         <NavLink to="/namfam" className="link">
-          nam fam
+          Mathematical Structure of the Universe
         </NavLink>
         <NavLink to="/thebums" className="link">
-          the bums
+          Pixelation of Reality / Planck Scale
         </NavLink>
         <NavLink to="/hometown" className="link">
           hometown
@@ -53,7 +53,7 @@ const Title = () => {
                 stopCursor1 ? "cursor-off" : ""
               }`}
             >
-              Happy Birthday
+              Are we for real?
             </span>
           )}
           <br />
@@ -63,16 +63,11 @@ const Title = () => {
                 stopCursor2 ? "cursor-off" : ""
               }`}
             >
-              Audrey Chang!
+              Or are we in a simulation?
             </span>
           )}
         </p>
       </div>
-      <img
-        src={profilePic}
-        alt="audrey"
-        className={`audrey ${isVisible ? "visible" : ""}`}
-      />
     </div>
   );
 };

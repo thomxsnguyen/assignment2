@@ -4,7 +4,7 @@ body {
   font-family: "Poppins", sans-serif;
   margin-bottom: 0vh;
   height: 100%;
-  background-color: #ffe4e1;
+  background-image: url("./stars.jpg");
 }
 
 .header {
@@ -16,7 +16,7 @@ body {
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #e7a1b0;
+  background-color: #000000;
   color: white;
   box-sizing: border-box;
   width: 100%;
@@ -31,23 +31,31 @@ body {
     font-size: 20px;
   }
   .link,
-  .scroll {
+  .scroll,
+  .scroll-topics {
     color: rgb(255, 255, 255);
     text-decoration: black;
+    font-size: 20px;
   }
 
   .link:hover {
     text-decoration: underline;
   }
 
-  .scroll {
+  .scroll,
+  .scroll-topics {
     border: none;
     color: white;
     background-color: transparent;
     font-size: 20px;
   }
 
-  .scroll:hover {
+  .scroll-topics {
+    font-size: 15px;
+  }
+
+  .scroll:hover,
+  .scroll-topics:hover {
     cursor: pointer;
     text-decoration: underline;
   }
@@ -76,7 +84,7 @@ body {
   justify-content: center;
   font-size: 5em;
   color: white;
-  background-color: #f9d5d3;
+  background-color: #1a1a1a;
   width: 80vw;
   z-index: 0;
 
@@ -193,7 +201,7 @@ body {
   flex-direction: column;
   gap: 20vh;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f9d5d3;
+  background-color: #1a1a1a;
   padding: 5vw;
   color: white;
 }

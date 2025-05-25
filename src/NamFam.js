@@ -12,13 +12,17 @@ import namfam3 from "./polaroids/namfam3.png";
 
 const message = [
   <>
-    "Hello Audrey!!!
-    <br />
-    <br />
-    HAPPY BDAY !!! UR GETTING CLOSER TO DYING!! jokes aside tho congrats on
-    another year and despite u growing older keep bringing that energetic vibe
-    around 🙂‍↕️ thanks for noticing when i'm tired of people and have a blessed
-    day !!!!"
+    The most compelling argument for the idea that we are in a simulation is to
+    be seen in the very mathematical nature of the universe. From physics to
+    physics, the universe follows strict equations which not only cohere but are
+    very leading one to speculate whether reality is code-based. To begin with,
+    consider the fine-tuning of the physical constants. Constants such as the
+    gravitational constant, the velocity of light, and the electromagnetic force
+    strength are all so close to each other that there is life. An infinitesimal
+    change in any one of these would lead to a universe with no stars, no
+    chemistry, or stability. This near-random precision is uncannily close to
+    defining variables in a computer system to generate a certain
+    result—suggesting a universe that might have been set up deliberately.
   </>,
   <>
     "Happy birthday Audrey! Thanks for being the best big I could ask for! I
@@ -49,16 +53,16 @@ const NamFamHeader = ({
   return (
     <header className="header">
       <div className="left-header">
-        <p>Nam Fam</p>
+        <p>Physics 20B</p>
         <nav className="scroll-down">
-          <button className="scroll" onClick={scrollToMartin}>
-            martin
+          <button className="scroll-topics" onClick={scrollToMartin}>
+            Mathmetical Structure Of The Universe
           </button>
-          <button className="scroll" onClick={scrollToEric}>
-            eric
+          <button className="scroll-topics" onClick={scrollToEric}>
+            Discrete Nature of Space-Time
           </button>
-          <button className="scroll" onClick={scrollToAngie}>
-            angie
+          <button className="scroll-topics" onClick={scrollToAngie}>
+            Universaility of Math Patterns
           </button>
         </nav>
       </div>
@@ -128,7 +132,7 @@ const NamFam = () => {
         <div className="message-container">
           <div className="sub-title">
             <ReactTyped
-              strings={["Nam Fam"]}
+              strings={["Mathematical Structure\nof the Universe"]}
               typeSpeed={150}
               backSpeed={100}
               loop={false}
@@ -139,6 +143,7 @@ const NamFam = () => {
                   };
                 }
               }}
+              style={{ whiteSpace: "pre-line" }} // this is key to render \n
             />
           </div>
 
