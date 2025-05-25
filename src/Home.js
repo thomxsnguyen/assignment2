@@ -12,10 +12,10 @@ const Header = () => {
           Mathematical Structure of the Universe
         </NavLink>
         <NavLink to="/thebums" className="link">
-          Pixelation of Reality / Planck Scale
+          Advancing Technology
         </NavLink>
         <NavLink to="/hometown" className="link">
-          hometown
+          Conclusion/Sources
         </NavLink>
       </div>
     </header>

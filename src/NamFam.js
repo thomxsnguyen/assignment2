@@ -2,9 +2,9 @@ import React, { useEffect, useState, useRef } from "react";
 import { Browser as Router, NavLink, useLocation } from "react-router-dom";
 import { ReactTyped } from "react-typed";
 
-import martin from "./polaroids/martin.png";
-import eric from "./polaroids/eric.png";
-import angie from "./polaroids/angie.png";
+import martin from "./images/topic1pic1.jpg";
+import eric from "./images/topic1pic2.jpg";
+import angie from "./images/topic1pic3.jpeg";
 
 import namfam1 from "./polaroids/namfam1.png";
 import namfam2 from "./polaroids/namfam2.png";
@@ -25,22 +25,26 @@ const message = [
     result—suggesting a universe that might have been set up deliberately.
   </>,
   <>
-    "Happy birthday Audrey! Thanks for being the best big I could ask for! I
-    could rely on and talk to whenever and it's so nice to have a big I can
-    always rely on 🫶 Now enjoy being the center of attention lololololol"
+    Secondly, its discreteness is also in its favor. Space and time are not
+    divisible into infinitely small units, quantum theories of mechanics and
+    gravity suppose. The smallest length we can imagine, the Planck length, is
+    rumored to be the "pixel size" of the universe. Below that, our
+    understanding of space no longer works. Just like the images on a screen are
+    made up of pixels, our universe appears to have a resolution of origin,
+    which would imply that it could be a reality that's been simulated with
+    limits of accuracy—such as a simulation.
   </>,
   <>
-    Dear Audrey,
-    <br />
-    <br />
-    Happy birthday! Thank you for always being the sunshine in my life and
-    making me smile. Sometimes I'm scared of how well you can read me, but on
-    the other hand it makes me really happy that you care for me too. I love you
-    a lot, and are so happy to call you my friend.Keep smiling and I’ll always
-    be your big forever.
-    <br />
-    <br />
-    Love, Angie
+    Third, the ubiquity of mathematics in patterns throughout nature gives
+    additional clues. The Fibonacci sequence is located from flower petals to
+    galaxy spirals. Fractal patterns occur on coastlines, lightning, and lungs.
+    The self-similar, scaleable patterns are representative of the procedure of
+    procedural generation—a computional process used in simulations and video
+    games to generate complicated worlds out of simple rules. The fact that
+    these patterns are everywhere in the universe, from the infinitesimal to the
+    cosmic, lends support to the notion that a finite set of rules might be
+    governing an exponentially huge, complex system—one that's less aleatory and
+    more pre-programmed.
   </>,
 ];
 
