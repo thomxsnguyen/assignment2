@@ -72,13 +72,13 @@ const NamFamHeader = ({
       </div>
       <div className="links-container">
         <NavLink to="/" className="link">
-          home
+          Home
         </NavLink>
         <NavLink to="/thebums" className="link">
-          the bums
+          Advancing Technology
         </NavLink>
         <NavLink to="/hometown" className="link">
-          hometown
+          Conclusion/Sources
         </NavLink>
       </div>
     </header>

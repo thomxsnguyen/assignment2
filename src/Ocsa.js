@@ -117,34 +117,34 @@ const OscaHeader = ({
   return (
     <header className="header">
       <div className="left-header">
-        <p>Hometown</p>
+        <p>Physics 20B</p>
         <nav className="scroll-down">
           <button className="scroll" onClick={scrollToMichelle}>
-            michelle
+            Conclusion
           </button>
           <button className="scroll" onClick={scrollToLauren}>
-            lauren
+            Source #1
           </button>
           <button className="scroll" onClick={scrollToBranden}>
-            branden
+            Source #2
           </button>
           <button className="scroll" onClick={scrollToAlly}>
-            ally
+            Source #3
           </button>
           <button className="scroll" onClick={scrollToNoemi}>
-            noemi
+            Source #4
           </button>
         </nav>
       </div>
       <div className="links-container">
         <NavLink to="/" className="link">
-          home
+          Home
         </NavLink>
         <NavLink to="/thebums" className="link">
-          the bums
+          Mathematical Structure of the Universe
         </NavLink>
         <NavLink to="/namfam" className="link">
-          nam fam
+          Advancing Technology
         </NavLink>
       </div>
     </header>
@@ -207,7 +207,7 @@ const Osca = () => {
         <div className="message-container">
           <div className="sub-title">
             <ReactTyped
-              strings={["Hometown"]}
+              strings={["Conclusion"]}
               typeSpeed={150}
               backSpeed={100}
               loop={false}

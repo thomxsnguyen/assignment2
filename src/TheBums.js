@@ -2,36 +2,48 @@ import React, { useEffect, useState, useRef } from "react";
 import { Browser as Router, NavLink, useLocation } from "react-router-dom";
 import { ReactTyped } from "react-typed";
 
-import kai from "./polaroids/kai.png";
-import josh from "./polaroids/josh.png";
-import roy from "./polaroids/roy.png";
+import kai from "./images/nick.jpeg";
+import josh from "./images/veo.png";
+import roy from "./images/will.png";
+import assignment2 from "./assignment2.mp4";
 
 const message = [
   <>
-    Happy 20th birthday Audrey! You might be one of the loudest people i know
-    but that makes you the life of our parties! Thank you for always being a
-    great friend to me and supporting me whenever i need it! I can’t wait till
-    you’re 21 so we can (legally) drink Best little sister frfr!
+    Nick Bostrom's Simulation Argument assumes that if it is technologically
+    feasible to create conscious simulates, and if the will of advanced
+    civilizations is to make simulations, then simulated worlds would outnumber
+    base reality many times over. Here, it is more statistically likely that we
+    are inside one of these simulations instead of in the initial, physical
+    world. This is premised on the argument that computing power and creative
+    capacity will continue to improve to the point where simulations will be
+    indistinguishable from actual reality—not so much an abstract theory anymore
+    as our current technology is rapidly improving in that direction.
   </>,
   <>
-    happy birthday audrey ! first bday celebration together & im very grateful
-    to be here for it . thank you for being such a great friend to me & im
-    really happy w the bond we’ve created & how close we’ve gotten over the year
-    . i appreciate all the things you do for me & am excited to see all the
-    great things you’ll do !i hope 20 blesses u , you deserve all the best
-    <br />
-    -roy
+    One of the best examples of this technology trajectory is Veo, Google
+    DeepMind's generative model that creates cinematic-quality video from text
+    inputs. Veo version 3 was released at Google I/O 2025, and it illustrates
+    just how advanced generative models have become. Veo can create realistic
+    video with complex scene composition, nuanced facial expressions, ambient
+    audio, and contextual storytelling—all based on simple instructions. With
+    technology such as Veo, the distinction between content made through digital
+    means and real content is eliminated. Such advancements now make copying
+    worlds, characters, and even emotions no longer an academic occurrence—it
+    happens, and it only improves.
   </>,
   <>
-    “hey Audrey!! happy birthday! damn you old…20…goddamn. jk, in all
-    seriousness I’m glad to have known you for this long and it’s still so crazy
-    to me that we are super close now. I couldn’t have imagined being such good
-    friends with you back in church but I’m so glad that we are. it’s only up
-    from here, your 20’s are going to be amazing, demure, and super duper
-    freaking lucky. Once again, have an awesome fucking birthday, and to more
-    type shit moments!
-    <br />
-    -Josh”
+    When artificial intelligence software like Flow is layered over Veo,
+    creators can construct complete narratives—plots, scenes, characters, and
+    special effects—without traditional film crews and cameras. Such a
+    democratization of virtual content construction implies that constructing
+    believable alternative realities may soon be within reach not just of
+    institutions but also of individuals. And if we can already mimic video and
+    audio to virtual perfection in 2025, it would be no difficulty for a
+    far-future civilization to simulate an entire universe, including conscious
+    life. And then, as a result, Bostrom's argument becomes all but impossible
+    to ignore: if this simulated world is possible, and a few civilizations even
+    give it a go, then the probability that we are living in one of them becomes
+    terrifyingly high.
   </>,
 ];
 
@@ -39,28 +51,28 @@ const TheBumsHeader = ({ scrollToKai, scrollToJosh, scrollToRoy }) => {
   return (
     <header className="header">
       <div className="left-header">
-        <p>The Bums</p>
+        <p>Physics 20B</p>
         <nav className="scroll-down">
           <button className="scroll" onClick={scrollToKai}>
-            kai
+            Nick Bostrom
           </button>
           <button className="scroll" onClick={scrollToJosh}>
-            josh
+            Google's Veo
           </button>
           <button className="scroll" onClick={scrollToRoy}>
-            kai
+            From Tools to Worlds
           </button>
         </nav>
       </div>
       <div className="links-container">
         <NavLink to="/" className="link">
-          home
+          Home
         </NavLink>
         <NavLink to="/namfam" className="link">
-          nam fam
+          Mathematical Structure of the Universe
         </NavLink>
         <NavLink to="/hometown" className="link">
-          hometown
+          Conclusion/Sources
         </NavLink>
       </div>
     </header>
@@ -119,7 +131,7 @@ const TheBums = () => {
         <div className="message-container">
           <div className="sub-title">
             <ReactTyped
-              strings={["The Bums"]}
+              strings={["Advancing Technology"]}
               typeSpeed={150}
               backSpeed={100}
               loop={false}
